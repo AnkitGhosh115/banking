@@ -104,7 +104,7 @@ export const logoutAccount = async () => {
     }
 }
 
-export const createLinkToken = async (user: User) => {
+export const createLinkToken = async (user: User) => { 
     try {
         const tokenParams = {
             user: {
@@ -216,3 +216,4 @@ export const exchangePublicToken = async ({
         console.error("An error occurred while creating exchanging token:", error);
     }
 }
+
